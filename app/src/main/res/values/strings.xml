@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">Азбука-невидимка</string>
+
+    <!-- Tabs -->
+    <string name="tab_all">Все</string>
+    <string name="tab_repeat">Повторить</string>
+
+    <!-- Buttons -->
+    <string name="btn_restart">Заново</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="btn_sign_up">Регистрация</string>
+    <string name="btn_forgot_password">Забыли пароль?</string>
+
+    <!-- Login -->
+    <string name="login_greeting">Привет!</string>
+    <string name="login_subtitle">Войдите в систему и\nпродолжайте свое обучение</string>
+    <string name="login_email_label">Электронная почта</string>
+    <string name="login_email_placeholder">user@gmail.com</string>
+    <string name="login_password_label">Пароль</string>
+    <string name="login_password_placeholder">●●●●●●●</string>
+    <string name="login_error_empty">Введите email и пароль</string>
+    <string name="login_error_failed">Не удалось войти. Проверьте данные</string>
+    <string name="login_no_account">У вас нет учетной записи?</string>
+
+    <!-- Result -->
+    <string name="result_title">Итог</string>
+
+    <!-- ResetPasswordEmailNav -->
+    <string name="reset_password_title">Восстановление пароля</string>
+    <string name="reset_password_subtitle">Введите адрес электронной почты,\nна который мы отправим ссылку для сброса.</string>
+    <string name="reset_password_email_label">Почта</string>
+    <string name="reset_password_email_placeholder">example@mail.com</string>
+    <string name="reset_password_send_button">Отправить ссылку</string>
+    <string name="reset_password_back">Назад</string>
+    <string name="reset_password_toast_enter_email">Введите email</string>
+    <string name="reset_password_toast_invalid_email">Некорректный email</string>
+    <string name="reset_password_toast_sent">Ссылка отправлена на почту</string>
+    <string name="reset_password_toast_error">Ошибка: %1$s</string>
+    <string name="reset_password_toast_unknown_error">Не удалось отправить ссылку для сброса пароля</string>
+
+    <!-- SignUp -->
+    <string name="signup_subtitle">Зарегистрируйтесь и\nначните изучать жестовый язык</string>
+    <string name="signup_failed">Ошибка при регистрации. Попробуйте снова.</string>
+    <string name="signup_invalid_data">Пожалуйста, заполните все поля корректно.</string>
+    <string name="login_signin">Войти</string>
+    <string name="signup_invalid_email">Неверный формат email</string>
+    <string name="signup_short_password">Пароль должен содержать не менее 6 символов</string>
+    <string name="password_rule_length">Требования: ≥6 символов</string>
+    <string name="password_rule_special">1 спецсимвол</string>
+    <string name="password_rule_digit">1 цифра</string>
+
+    <!-- Alphabet -->
+    <string name="alphabet_title">Алфавит</string>
+    <string name="gesture_for_letter">Жест для буквы %1$s</string>
+
+    <!-- Cards -->
+    <string name="card_face_letter">Буква</string>
+    <string name="card_face_gesture">Жест</string>
+    <string name="card_counter_repeat_description">Количество повторов</string>
+    <string name="card_counter_learned_description">Количество изученных</string>
+    <string name="card_session_finished">Сессия завершена</string>
+
+    <!-- Bottom Sheets -->
+    <string name="bottomsheet_sort_title">Сортировка карточек</string>
+    <string name="bottomsheet_reset_title">Сброс прогресса</string>
+
+    <!-- General -->
+    <string name="common_close">Закрыть</string>
+    <string name="common_ok">Ок</string>
+    <string name="common_cancel">Отмена</string>
+
+    <!-- Final Nav -->
+    <string name="final_result">Итог:</string>
+    <string name="final_congrats">Ух ты! Ты освоил это\nбыстрее наших прогнозов! ✨</string>
+    <string name="final_progress_label">Ваш прогресс:</string>
+    <string name="final_know">Знаю %1$d</string>
+    <string name="final_repeat">Повторить %1$d</string>
+    <string name="final_restart_button">Заново</string>
+    <string name="final_progress_percent">%1$d%%</string>
+
+    <!-- ResetBottomSheet -->
+    <string name="reset_title">Начать заново?</string>
+    <string name="reset_description">Весь прогресс будет сброшен, и карточки начнутся сначала.</string>
+    <string name="reset_button_restart">Заново</string>
+
+    <!-- SortBottomSheet -->
+    <string name="sort_settings_image_description">Настройки карточек</string>
+    <string name="sort_title">Параметры</string>
+    <string name="sort_section_format">Формат карточек</string>
+    <string name="sort_face_label">Лицевая сторона</string>
+    <string name="sort_option_letter">Буква</string>
+    <string name="sort_option_gesture">Жест</string>
+    <string name="sort_section_sorting">Сортировка</string>
+    <string name="sort_option_forward">Сначала</string>
+    <string name="sort_option_backward">С конца</string>
+    <string name="sort_option_shuffle">Перемешать</string>
+
+    <!-- WelcomeNav -->
+
+    <string name="welcome_title">Жестовый язык — твоя новая суперсила</string>
+    <string name="start_learning">Начните учиться</string>
+    <string name="already_have_account">У вас уже есть учетная запись? </string>
+    <string name="login">Войти</string>
+
+    <!-- Profile -->
+    <string name="profile_Nav_title">Личная страница</string>
+    <string name="profile_settings">Настройки</string>
+    <string name="profile_email_label">Почта</string>
+    <string name="profile_password_label">Пароль</string>
+    <string name="profile_current_password">Текущий пароль</string>
+    <string name="profile_new_password">Новый пароль</string>
+    <string name="profile_confirm_password">Подтвердите пароль</string>
+    <string name="profile_button_save">Сохранить</string>
+    <string name="profile_button_back">Вернуться</string>
+    <string name="profile_change_password_question">Изменить пароль?</string>
+    <string name="profile_change_password_action">Изменить</string>
+    <string name="profile_logout">Выйти из системы</string>
+    <string name="profile_password_placeholder">Введите %1$s</string>
+    <string name="error_fill_all_fields">Пожалуйста, заполните все поля</string>
+    <string name="error_passwords_mismatch">Пароли не совпадают</string>
+    <string name="success_password_updated">Пароль успешно обновлён</string>
+
+    <!-- ProfileViewModel -->
+    <string name="default_email">user@gmail.com</string>
+    <string name="error_user_not_authenticated">Пользователь не авторизован</string>
+    <string name="error_email_not_found">Email не найден</string>
+    <string name="error_password_length">Новый пароль должен содержать не менее 6 символов</string>
+    <string name="error_password_update">Ошибка при обновлении пароля</string>
+    <string name="error_authentication">Ошибка аутентификации: %1$s</string>
+
+    <string name="progress_percentage">%1$d%%</string>
+    <string name="day_progress_title">Прогресс за день</string>
+
+    <string name="results_note_text">Результаты показывают последнюю завершённую сессию.</string>
+    <string name="rating_header_title">Рейтинг</string>
+    <string name="selected_day_info_text">Изучено карточек в %1$s: %2$d</string>
+    <string name="app_title">Азбука-невидимка</string>
+    <string name="study_days">Учебные дни</string>
+    <string name="weekly_summary">Сводка за неделю</string>
+</resources>
