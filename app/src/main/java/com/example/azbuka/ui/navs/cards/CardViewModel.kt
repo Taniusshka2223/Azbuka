@@ -15,7 +15,7 @@ import java.util.Calendar
 class CardViewModel(application: Application) : AndroidViewModel(application) {
 
     private val userId: String = FirebaseAuth.getInstance().currentUser?.uid
-        ?: error("User must be authenticated")
+        ?: error("Пользователь должен пройти авторизацию")
 
     private val repository: ProgressRepository
 
